@@ -162,7 +162,7 @@ function pageAjaxbfjl(id){
 		    //alert('标题：ID： ' + json.title + ' ，背景： ' + json.bg + '。');
 		    //console.log(data);
 		    //生成分页
-		    pageCreate(data.pageInfo,$('#bfjlpage'));
+			bfjlpageCreate(data.pageInfo,$('#bfjlpage'));
 		    //生成课程模块
 		    var kcArry = data.pageInfo.list;
 		    createLiold(kcArry,$('#mybfjl'));
@@ -171,6 +171,25 @@ function pageAjaxbfjl(id){
 		    alert('服务器离家出走了。。。。。');
 	    }
 	});
+}
+//根据数据生成分页 播放记录
+function bfjlpageCreate(data,name){
+	name.empty();
+	var strfirst = '<li class="list '+(data.isFirstPage?'pageItemDisable':'pageItem')+'" data-page="1">首页</li>';
+	var strprev = '<li class="list '+(data.isFirstPage?'pageItemDisable':'pageItem')+'"  data-page="'+data.prePage+'">上一页</li>';
+    name.append(strfirst);
+    name.append(strprev);
+	var strnext = '<li class="list '+(data.isLastPage?'pageItemDisable':'pageItem')+'"  data-page="'+data.nextPage+'">下一页</li>';
+	var strlast = '<li class="list '+(data.isLastPage?'pageItemDisable':'pageItem')+'"  data-page="'+data.pages+'">尾页</li>';
+	var arry = data.navigatepageNums;
+	$.each(arry,function(i,val){
+		var items = '<li class="list '+(data.pageNum==arry[i]?'pageItemactive':'pageItem')+'" data-page="'+arry[i]+'" style="display:'+(arry[i]>10?'none':'inline-block')+'">'+arry[i]+'</li>';
+		name.append(items);
+		
+	});
+	name.append(strnext);
+	name.append(strlast);
+	
 }
 
 function createLiold(arry,name){
