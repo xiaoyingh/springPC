@@ -1,0 +1,43 @@
+.pagerwrap{
+	padding-left: 0;
+	height: 32px;
+	margin: 8px auto;
+	text-align: center;
+	margin-bottom: 0;
+}
+.pagerwrap .pagebox{
+	padding-left: 0;
+	height: 32px;
+	margin-top: 4px;
+}
+.pagerwrap .pagebox li{
+	display: inline-block;
+	padding: 0px 12px;
+	height: 32px;
+	line-height: 32px;
+	color: #333;
+	margin: 0 5px;
+}
+.pagerwrap .pagebox li.pageItem{
+	color: #333;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	cursor: pointer;
+}
+.pagerwrap .pagebox li.pageItemactive{
+	background: #333;
+	color: #fff;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	cursor: pointer;
+}
+.pagerwrap .pagebox .pageItem:hover{
+	color: #d21213;
+}
+.pagerwrap .pagebox li.pageItemhover{
+	background: #ddd;
+	color: #333;
+}
+.pagerwrap .pagebox li.pageItemdisable{
+	color: #333;
+}

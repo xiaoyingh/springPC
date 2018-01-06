@@ -1,0 +1,676 @@
+.header,.content,.con, .footer-con {
+    width: 1200px !important;
+}
+.footer .content{
+	margin: 0 auto;
+}
+.head-active{
+	background: #000;
+}
+.boxshow{
+	box-shadow: 0 2px 4px 0 rgba(204,204,204,0.50);
+    -webkit-box-shadow: 0 2px 4px 0 rgba(204,204,204,0.50);
+    -moz-box-shadow: 0 2px 4px 0 rgba(204,204,204,0.50);
+    -ms-box-shadow: 0 2px 4px 0 rgba(204,204,204,0.50);
+    -o-box-shadow: 0 2px 4px 0 rgba(204,204,204,0.50);
+}
+.audio-banner{
+	width: 1200px;
+	height: 300px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	background: #EFE7E4;
+}
+.banner .banner-con ul li a{
+	display: block;
+	width: 1200px;
+	height: 300px;
+	background: #EFE7E4 url(../../img/audio/mp.jpg) no-repeat center;
+}
+.audio-kc{
+	width: 1200px;
+	height: 296px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.content:nth-child(2n) {
+    box-shadow: none;
+    background: none;
+}
+.audio-kc .con{
+	padding: 0;
+}
+.audio-kc .con .section{
+	width: 100%;
+	height: 296px;
+}
+/*课文朗读课外读物音频推荐*/
+.section .m_pos{
+	width: 870px;
+	height: 100%;
+	float: left;
+	background: #fff;
+	border-radius: 5px;
+	-webkit-border-radius:5px;
+}
+.section .m_pos .stk-head{
+	width: 100%;
+	padding: 14px 30px;
+	height: 52px;
+}
+.section .m_pos .stk-head h3{
+	float: left;
+	width: 120px;
+	height: 24px;
+	font-size: 18px;
+	color: #000;
+	padding-left: 5px;
+	margin-right: 90px;
+	line-height: 24px;
+	margin-bottom: 14px;
+	border-left: 3px solid #d21213;
+}
+.section .m_pos .stk-head .kc-nav{
+	float: left;
+	height: 24px;
+	line-height: 24px;
+	width: 65%;
+	overflow: hidden;
+}
+.section .m_pos .stk-head .kc-nav a{
+	display: block;
+	float: left;
+	padding: 0 2px;
+	height: 24px;
+	color: #333;
+	font-size: 14px;
+	margin-right: 22px;
+	text-decoration: none;
+}
+.section .m_pos .stk-head .kc-nav a:hover{
+	border-bottom: 1px solid #333;
+}
+.section .m_pos .stk-head strong{
+	font-size: 12px;
+	float: right;
+	display: block;
+	padding: 0 5px;
+	height: 24px;
+	color: #ccc;
+	line-height: 30px;
+}
+.section .m_pos .stk-head strong a{
+	color: #ccc;
+	text-decoration: none;
+}
+.section .m_pos .stk-head strong a:hover{
+	color: #d21213;
+}
+.section .m_pos .stk-body{
+	height: 244px;
+	overflow: hidden;
+	border-top: 1px solid #e5e5e5;
+	width: 870px !important;;
+}
+.section .m_pos .stk-body .tabs{
+	width: 100%;
+	height: 100%;
+	padding: 30px;
+	padding-right: 0;
+}
+/*音频模块样式*/
+.section .m_pos .tabs_con{
+	width: 138px;
+	height: 183px;
+	float: left;
+	margin-right: 30px;
+}
+.section .m_pos .tabs_con li{
+	width: 138px;
+	height: 183px;
+}
+.section .m_pos .tabs_con li a{
+	display: block;
+	width: 138px;
+	height: 183px;
+}
+.section .m_pos .kc{
+	width: 138px;
+	height: 138px;
+	position: relative;
+}
+.section .m_pos .kc .kctop{
+	width: 138px;
+	height: 138px;
+	border: 1px solid #979797;
+}
+.section .m_pos .kc .kcmask{
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	width: 138px;
+	height: 138px;
+	background: rgba(0,0,0,0.40);
+}
+.section .m_pos .kc .audio-btn{
+	display: none;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -22px;
+	margin-top: -22px;
+	z-index: 1;
+	width: 44px;
+	height: 44px;
+	background: url(../../img/audio/audio_icon.png) no-repeat;
+	background-position: 0 -184px;
+}
+.section .m_pos .texts{
+	width: 100%;
+	height: 45px;
+}
+.section .m_pos .texts .titles{
+	width: 100%;
+	height: 31px;
+	line-height: 31px;
+	padding: 0 5px;
+	font-size: 14px;
+	color: #000;
+}
+.section .m_pos .texts .kcsm{
+	width: 100%;
+	height: 14px;
+	padding: 0 5px;
+}
+.section .m_pos .texts .kcsm p{
+	padding-right: 5px;
+    height: 14px;
+    line-height: 14px;
+    font-size: 12px;
+    color: #999;
+    float: left;
+}
+.section .m_pos .texts .kcsm p span{
+	float: left;
+	height: 14px;
+	line-height: 14px;
+}
+.section .m_pos .texts .kcsm p:first-child span:first-child{
+	margin-right: 5px;
+    width: 14px;
+    background: url(../../img/audio/audio_icon.png) no-repeat;
+    background-position: -16px -78px;
+    -webkit-background-position: -16px -78px;
+}
+
+/*鼠标移入的特效*/
+.section .m_pos .tabs_con .audio-active .kc .kcmask{
+	display: block;
+}
+.section .m_pos .tabs_con .audio-active .kc .audio-btn{
+	display: block;
+}
+.section .m_pos .tabs_con .audio-active .texts .titles{
+	color: #d21313;
+}
+.section .m_pos .tabs_con .audio-active .texts .kcsm{
+	color: #333;
+}
+.section .m_pos .tabs_con .audio-active .texts .kcsm p:first-child span:first-child{
+	
+    background-position: 0 -78px;
+    -ms-background-position: 0 -78px;
+    -webkit-background-position: 0 -78px;
+}
+/*右边系统推荐音频*/
+.section .m_right{
+	width: 310px;
+	height: 296px;
+	float: right;
+	background: #fff;
+	border-radius: 5px;
+	-webkit-border-radius:5px;
+}
+
+.section .m_right .right_title{
+	width: 100%;
+	height: 52px;
+	padding: 14px 30px;
+}
+.section .m_right .right_title h4{
+	line-height: 24px;
+	font-size: 16px;
+	color: #000;
+}
+.section .m_right .right_con{
+	width: 100%;
+	height: 244px;
+	border-top: 1px solid #e5e5e5;
+}
+.section .m_right .right_con ol{
+	width: 100%;
+	height: 243px;
+	padding: 6px 30px;
+}
+.section .m_right .right_con ol li{
+	width: 100%;
+	height: 40px;
+	margin-bottom: 4px;
+}
+.section .m_right .right_con ol li a{
+	display: block;
+	width: 100%;
+	height: 40px;
+	padding: 10px 0;
+	color: #000;
+}
+.section .m_right .right_con ol li a span{
+	float: left;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	margin-right: 6px;
+    background: rgba(210,19,19,0.90);
+    color: #fff;
+    font-size: 12px;
+}
+.section .m_right .right_con ol li a p{
+	float: left;
+	width: 214px;
+	height: 20px;
+	line-height: 20px;
+	color: #000;
+	font-size: 12px;
+}
+
+/*课程分类页面*/
+.audio_sub{
+	width: 100%;
+	height: auto;
+	display: none;
+}
+.audio_sub .sub_nav{
+	width: 100%;
+	height: 52px;
+	background: #fff;
+	margin-bottom: 20px;
+	
+}
+.audio_sub .sub_nav .sub_cen{
+	width: 1200px;
+	height: 52px;
+	margin: 0 auto;
+	padding: 10px 115px;
+}
+.audio_sub .sub_nav .sub_cen a{
+	display: inline-block;
+	color: #000;
+	padding: 0 10px;
+	font-size: 12px;
+	height: 32px;
+	line-height: 32px;
+}
+.audio_sub .sub_nav .sub_cen .fl_active{
+	background: #333;
+	color: #fff;
+}
+.audio_sub .sub_sec{
+	width: 100%;
+	height: auto;
+	margin-bottom: 78px;
+}
+.audio_sub .sub_sec .sec{
+	width: 1200px;
+	min-height: 1137px;
+	/*height: auto;*/
+	padding: 25px 95px 25px 115px;
+	margin: 0 auto;
+	background: #fff;
+	/*overflow: auto;*/
+}
+.audio_sub .sub_sec .sec .sub_audio{
+	float: none;
+	width: 100%;
+	margin: 0;
+	min-height: 1137px;
+	
+}
+.audio_sub .sub_sec .sec .sub_audio .tabs_con{
+	width: 100%;
+	height: auto;
+	min-height: 820px;
+	margin-right: 0;
+}
+.audio_sub .sub_sec .sec .sub_audio .tabs_con li{
+	float: left;
+	width: 178px;
+	height: 234px;
+	border: 1px solid rgba(151,151,151,0.30);
+	padding: 19px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+/*音乐播放器*/
+.audio_wrap{
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background: #222;
+	z-index: 10;
+}
+.audio_con{
+	width: 870px;
+	height: 100px;
+	margin: 0 auto;
+	position: relative;
+}
+.audio_con .audio_key{
+	width: 870px;
+	height: 100px;
+	position: relative;
+}
+
+.audio_con .audio_key .prev_btn,.audio_con .audio_key .playing_btn,.audio_con .audio_key .next_btn,.audio_con .audio_key .loop,.audio_con .audio_key .music_menu{
+	position: absolute;
+	bottom: 20px;
+	background: url(../../img/audio/audio_icon.png) no-repeat;
+}
+.audio_con .audio_key .prev_btn{
+	left: 5px;
+    bottom: 38px;
+	width: 24px;
+	height: 24px;
+	background-position: 0 -52px;
+}
+.audio_con .audio_key .playing_btn{
+	left: 59px;
+	bottom: 25px;
+	width: 50px;
+	height: 50px;
+	background-position: 0px 0px;
+}
+
+.audio_con .audio_key .next_btn{
+	left: 139px;
+    bottom: 38px;
+	width: 24px;
+	height: 24px;
+	background-position: -26px -52px;
+}
+.audio_con .audio_key .audio_img{
+	position: absolute;
+	left: 195px;
+	bottom: 20px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+.audio_con .audio_key .audio_img img{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+.audio_con .audio_key .process{
+	position: absolute;
+	left: 276px;
+	bottom: 20px;
+	width: 300px;
+	height: 60px;
+}
+.audio_con .audio_key .process .audio_title{
+	float: left;
+	width: 200px;
+	height: 38px;
+	line-height: 38px;
+	font-size: 14px;
+	color: #fff;
+}
+.audio_con .audio_key .process .audio_time{
+	float: left;
+	width: 100px;
+	height: 38px;
+	text-align: right;
+	line-height: 38px;
+	font-size: 14px;
+	color: #fff;
+}
+.audio_con .audio_key .scroll{
+	float: left;
+	width: 300px;
+	height: 12px;
+	position: relative;
+}
+.audio_con .audio_key .scroll .process-all{
+	position: absolute;
+	left: 0;
+	top: 5px;
+	width: 300px;
+	height: 2px;
+	background: #ccc;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.audio_con .audio_key .scroll .process-cur{
+	position: absolute;
+	left: 0;
+	top: 5px;
+	width: 0;
+	height: 2px;
+	background: #D21313;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.audio_con .audio_key .scroll .process-cur .cur-btn{
+	position: absolute;
+	left: 0;
+	top: -6px;
+	margin-left: -6px;
+	width: 12px;
+	height: 12px;
+	background: #fff;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	cursor: pointer;
+}
+
+.audio_con .audio_key .music_menu{
+	left: 630px;
+	bottom: 36px;
+	width: 28px;
+	height: 28px;
+	background-position: 0 -94px;
+}
+.audio_con .audio_key .loop{
+	left: 684px;
+	bottom: 36px;
+	width: 28px;
+	height: 28px;
+	background-position: -30px -124px;
+}
+.audio_con .audio_key .looping{
+	background-position: 0px -124px;
+}
+.audio_con .audio_key .volume{
+	position: absolute;
+	right: 0;
+	bottom: 36px;
+	width: 118px;
+	height: 28px;
+}
+.audio_con .audio_key .volume .vol_img{
+	float: left;
+	width: 28px;
+	height: 28px;
+	background: url(../../img/audio/audio_icon.png) no-repeat;
+	background-position: 0 -154px;
+	margin-right: 9px;
+}
+.audio_con .audio_key #vol-bar{
+	width: 80px;
+	top: 7px;
+}
+.audio_con .audio_key #vol-all{
+	width: 80px;
+}
+/*音频播放列表和歌词*/
+.audio_con .audio_list{
+	display: none;
+	width: 870px;
+	min-height: 44px;
+	position: absolute;
+	left: 0;
+	bottom: 100px;
+}
+.audio_con .audio_list  .list_title{
+	width: 100%;
+	height: 44px;
+	padding: 14px 40px;
+	background: #000000;
+}
+.audio_con .audio_list  .list_title h5{
+	float: left;
+	width: 200px;
+	height: 18px;
+	padding-left: 10px;
+	line-height: 18px;
+	border-left: 3px solid #D62828;
+	color: #fff;
+	font-size: 16px;
+}
+.audio_con .audio_list  .list_title .lbclose{
+	float: right;
+	padding: 0 5px;
+	height: 18px;
+	line-height: 18px;
+	color: #fff;
+}
+.audio_con .audio_list .list_cen{
+	width: 100%;
+	height: 276px;
+	background: rgba(0,0,0,0.92);
+}
+.audio_con .audio_list .list_cen .items{
+	width: 50%;
+	height: 276px;
+	float: left;
+	overflow-y: auto;
+}
+/*滚动条样式*/
+/*::-webkit-scrollbar        滚动条整体部分，其中的属性有width,height,background,border（就和一个块级元素一样）等。
+::-webkit-scrollbar-button      滚动条两端的按钮。可以用display:none让其不显示，也可以添加背景图片，颜色改变显示效果。
+::-webkit-scrollbar-track         外层轨道。可以用display:none让其不显示，也可以添加背景图片，颜色改变显示效果。
+::-webkit-scrollbar-track-piece        内层轨道，滚动条中间部分（除去）。
+::-webkit-scrollbar-thumb               滚动条里面可以拖动的那部分
+::-webkit-scrollbar-corner               边角
+::-webkit-resizer                       定义右下角拖动块的样式*/
+.setscrollbar::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 6px;     高宽分别对应横竖滚动条的尺寸*/
+    /*height: 4px;*/
+}
+.setscrollbar::-webkit-scrollbar-button {/*滚动条两端的按钮*/
+    display: none;
+}
+.setscrollbar::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: #e5e5e5;
+}
+.setscrollbar::-webkit-scrollbar-track {/*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 0;
+    background: rgba(0,0,0,0.92);
+}
+.setscrollbar::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 6px;     高宽分别对应横竖滚动条的尺寸*/
+    /*height: 4px;*/
+}
+.setscrollbar::-webkit-scrollbar-button {/*滚动条两端的按钮*/
+    display: none;
+}
+.setscrollbar::scrollbar-thumb {/*滚动条里面小方块*/
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: #e5e5e5;
+}
+.setscrollbar::scrollbar-track {/*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 0;
+    background: rgba(0,0,0,0.92);
+}
+
+.audio_con .audio_list .list_cen .items ul{
+	width: 100%;
+	height: 276px;
+	padding-left: 20px;
+}
+.audio_con .audio_list .list_cen .items ul li{
+	width: 100%;
+	height: 51px;
+	cursor: pointer;
+	border-bottom: 1px solid #e5e5e5;
+}
+.audio_con .audio_list .list_cen .items ul li h6{
+    width: 100%;
+    height: 50px;
+	padding-top: 10px;
+	padding-left: 30px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #fff;
+	font-weight: 100;
+}
+.audio_con .audio_list .list_cen .items ul .list_active h6{
+	color: #2ED92C;
+}
+.audio_con .audio_list .list_cen .lrc_mask{
+	width: 50%;
+	height: 276px;
+	float: left;
+	padding: 20px 0;
+}
+.audio_con .audio_list .list_cen .lrc_mask .lrc_wrap{
+	width: 100%;
+	height: 236px;
+	overflow: hidden;
+    mask-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.6) 15%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0.6) 85%, rgba(255, 255, 255, 0) 100%);
+    -webkit-mask-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.6) 15%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0.6) 85%, rgba(255, 255, 255, 0) 100%);
+}
+.audio_con .audio_list .list_cen .lrc_mask .lrc_wrap ul{
+	width: 100%;
+	height: 236px;
+	padding: 0 80px;
+	overflow-y: auto;
+	-ms-overflow-y: auto;
+}
+.audio_con .audio_list .list_cen .lrc_mask .lrc_wrap ul li{
+	width: 100%;
+	min-height: 24px;
+	font-size: 12px;
+	color: #FFFFFF;
+	line-height: 24px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
